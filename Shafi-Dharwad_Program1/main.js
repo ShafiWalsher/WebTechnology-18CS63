@@ -1,24 +1,19 @@
-function calc(clicked_id) {
-    var v1 = parseFloat(document.getElementById("value1").value);
-    var v2 = parseFloat(document.getElementById("value2").value);
-    if (isNaN(v1) || isNaN(v2)) alert("Please enter a valid number");
-    else if (clicked_id == "add")
-      document.getElementById("answer").value = v1 + v2;
-    else if (clicked_id == "sub")
-      document.getElementById("answer").value = v1 - v2;
-    else if (clicked_id == "mul")
-      document.getElementById("answer").value = v1 * v2;
-    else if (clicked_id == "div") {
-      if (v2 == 0) {
-        alert("Please Enter a Non Zero Denominator");
-        location.reload();
-      }
-      else;
-      document.getElementById("answer").value = v1 / v2;
+// Use insert() function to insert the number in textview.
+function insert(num) {
+    document.getElementById('output').value = document.getElementById('output').value + num;
+}
+
+// Use equal() function to return the result based on passed values.
+function equal() {
+    var exp = document.getElementById('output').value;
+    if (exp) {
+        document.getElementById('output').value = eval(exp);
     }
-  }
-  function cls() {
-    value1.value = "0";
-    value2.value = "0";
-    answer.value = "";
-  }
+}
+
+/* Here, we create a backspace() function to remove the number at the end of the numeric series in textview. */
+function cls() {
+    document.getElementById('output').value = '';
+    //var exp = document.getElementById('output').value;
+    //document.getElementById('output').value = exp.substring(0, exp.length - 1); /* remove the element from total length ? 1 */
+}
