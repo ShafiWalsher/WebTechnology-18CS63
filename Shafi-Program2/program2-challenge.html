@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_2-Squares & Cubes</title>
+    <style>
+        body {
+            background-color: #f7f7f7;
+            overflow: hidden;
+        }
+
+        table {
+            width: 30%;
+            background-color: #a2ccda;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .heading {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 15px;
+        }
+
+        .sub-heading {
+            font-weight: bold;
+            padding: 8px 0;
+        }
+
+        td {
+            padding: 3px 0;
+        }
+
+        .blink {
+            animation: 2s linear infinite condemned_blink_effect;
+            text-align: center;
+            font-size: 1rem;
+            color: rgb(7, 29, 71);
+        }
+
+        @keyframes condemned_blink_effect {
+            0% {
+                visibility: hidden;
+            }
+
+            50% {
+                visibility: hidden;
+            }
+
+            100% {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table style="margin: 0 auto;">
+        <th colspan="3" class="heading">Numbers from 0 to 10 with their Squares and Cubes</th>
+        <tr>
+            <td class="sub-heading">NUMBER</td>
+            <td class="sub-heading">SQUARE</td>
+            <td class="sub-heading">CUBES</td>
+        </tr>
+        <script type="text/javascript">
+            for (var i = 0; i <= 10; i++) {
+                document.write("<tr align='center'><td>" + i + "</td><td>" + i * i
+                    + "</td><td>" + i * i * i + "</td></tr>")
+            }
+        </script>
+    </table>
+    <p class="blink">Assignment 2 Challenge Completed!!!</p>
+</body>
+</html>
