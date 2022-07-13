@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main.css"?>
+
+<STUDENTDATA>
+
+    <STUDENT>
+        <USN>USN   : 2TG20CS400</USN>
+        <NAME>NAME : AKSHAYSWAMI ANGADI</NAME>
+        <COLLEGE>COLLEGE : TCE Gadag</COLLEGE>
+        <BRANCH>BRANCH : CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : akshayangd@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <USN>USN : 2TG20CS403</USN>
+        <NAME>NAME : SHAFI DHARWAD</NAME>
+        <COLLEGE>COLLEGE : TCE Gadag</COLLEGE>
+        <BRANCH>BRANCH : CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : shafiwalsher@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <USN>USN   : 2TG20CS405</USN>
+        <NAME>NAME : SUSHILA SHIVASHIPIGER</NAME>
+        <COLLEGE>COLLEGE : TCE Gadag</COLLEGE>
+        <BRANCH>BRANCH : CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : sushilashimpiger@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <USN>USN   : 2TG20CS404</USN>
+        <NAME>NAME : SHUBHAM BASAVA</NAME>
+        <COLLEGE>COLLEGE : TCE Gadag</COLLEGE>
+        <BRANCH>BRANCH : CSE</BRANCH>
+        <YEAR>YEAR : 2022</YEAR>
+        <EMAIL>E-MAIL : shubhambasava@gmail.com</EMAIL>
+    </STUDENT>
+</STUDENTDATA>
